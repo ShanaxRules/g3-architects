@@ -74,6 +74,11 @@
     margin-bottom:30px;
   }
 
+  main{
+    max-width:1440px;
+    margin:0 auto;
+  }
+
   /* responsive media queries */
   /* mobile devices */
   @media screen and (max-width:576px){
@@ -99,6 +104,30 @@
     }
   }
 
+
+  /* team styles */
+
+  .teams-container{
+    display:flex;
+    align-items:center;
+  }
+
+  .teams-img-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+  }
+
+  .teams-content{
+    padding-right:70px;
+    padding-left:70px;
+  }
+
+  .teams-title .quick-list{
+    color:#727272;
+    font-size: 45px;
+    font-weight:700;
+  }
 
 
 
